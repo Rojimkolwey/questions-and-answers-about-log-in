@@ -17,6 +17,7 @@ const openCard = () => {
   }
 };
 
+// call the func
 openCard();
 
 // plusbtns.forEach((btn, index) => {
