@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(111, 27, 114);
+  font-family: "Poppins", sans-serif;
+}
+.rectangle {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(212, 64, 19, 0.678);
+  margin-left: 200px;
+  margin-top: 60px;
+  position: relative;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 420px;
+  width: 680px;
+  margin-left: 230px;
+  margin-top: -50px;
+  position: absolute;
+  border-radius: 5px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  overflow-y: auto;
+}
+h2 {
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.row {
+  margin-top: 5px;
+  padding: 5px 5px;
+  margin-right: 10px;
+  margin-left: 90px;
+  padding-right: 20px;
+  background-color: white;
+  cursor: pointer;
+  border: solid 1px #dfdfdf;
+  border-radius: 4px;
+  position: relative;
+  width: 300px;
+}
+.row b {
+  font-size: small;
+}
+.content {
+  font-size: small;
+  height: auto;
+  display: none;
+}
+.content.show {
+  display: inline-block;
+}
+.row span {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.botton-rectangle {
+  height: 110px;
+  width: 100px;
+  background-color: rgba(212, 64, 19, 0.678);
+  margin-left: 840px;
+  margin-top: 290px;
+}
+
+.botton-rectangle2 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(111, 27, 114);
+  margin-left: 820px;
+  margin-top: -120px;
+}
